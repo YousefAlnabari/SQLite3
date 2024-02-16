@@ -22,6 +22,7 @@ cursor.execute('''CREATE TABLE IF NOT EXISTS movies(
     )''')
 
 cursor.execute('INSERT INTO movies(title, genre, year) VALUES("EXIT", "akshn", 2019)')
+cursor.execute('SELECT rowid, * FROM movies')
 
 # We use a for loop to print all fields from the table
 data = cursor.fetchall()
