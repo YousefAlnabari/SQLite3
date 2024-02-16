@@ -15,4 +15,5 @@ cursor.execute('INSERT INTO movies(title, genre) VALUES("oppenheimer", "drama")'
 cursor.execute('INSERT INTO users VALUES("Yousef", "example@email.com", 17)')
 
 # We need to close the connection of DB
+con.commit()
 con.close()

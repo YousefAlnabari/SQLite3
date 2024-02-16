@@ -22,4 +22,5 @@ movies = [
 cursor.executemany("INSERT INTO movies VALUES(?,?,?)", movies)
 
 # We need to close the connection of DB
+con.commit()
 con.close()
