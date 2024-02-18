@@ -20,3 +20,6 @@ Whether you are a beginner exploring the world of databases or an experienced de
 <br>
 <br>
 In conclusion, harnessing the power of SQLite3 with Python opens up a realm of possibilities for efficient and straightforward database management. The simplicity of setup, combined with the versatility of the Python programming language, makes SQLite3 an excellent choice for projects of varying scales. So, embark on your journey of data management with SQLite3 and Python, where simplicity meets capability! 🚀
+
+## License
+MIT
