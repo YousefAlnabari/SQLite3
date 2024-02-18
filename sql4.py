@@ -1,4 +1,4 @@
-# Insert row/data into the table/DB many data
+# Insert rows/data into the tables/DB many data
 
 # We need to import an SQLite3 Lib
 import sqlite3
